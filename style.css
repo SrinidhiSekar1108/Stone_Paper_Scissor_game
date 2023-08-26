@@ -36,7 +36,7 @@ button{
     margin-left: 100vh;
     background-color: rgb(227, 162, 65);
 }
-@media(max-width:600px){
+@media(max-width:480px){
     button{
         margin-left: 40vh;
     }
