@@ -43,4 +43,7 @@ button{
     #play{
         margin-bottom: 40vh;
     }
+    html{
+        width: 480px;
+    }
 }
