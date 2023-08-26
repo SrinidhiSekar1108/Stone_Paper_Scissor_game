@@ -36,3 +36,10 @@ button{
     margin-left: 100vh;
     background-color: rgb(227, 162, 65);
 }
+@media(max-width:600px){
+    button{
+        margin-left: 40vh;
+    }
+    #play{
+        margin-bottom: 40vh;
+    }
