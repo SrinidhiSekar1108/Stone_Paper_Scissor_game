@@ -9,6 +9,14 @@ function name_change()
     button.addEventListener('click',function(){
         player1_name=name1.value;
         player2_name=name2.value;
+        if(player1_name=="")
+        {
+            player1_name="Player1"
+        }
+        if(player2_name=="")
+        {
+            player2_name="Player2"
+        }
         document.getElementById("p1").innerHTML=player1_name;
         document.getElementById("p2").innerHTML=player2_name;
     });
