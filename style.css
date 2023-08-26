@@ -6,7 +6,7 @@ html{
 .pic{
     display: inline-block;
     text-align: center;
-    margin-left: 12rem;
+    margin-left: 30vh;
     font-size: 30px;
 }
 .pic-container{
