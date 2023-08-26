@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rock Paper Scissor</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <style>
+            
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Wanna play a game?</h1>
+        <br>
+        <div class="player-label">
+            <label for="player1">Player1</label>
+            <input type="text" id="player1">
+        </div>
+        
+        <br>
+        <br>
+        <div class="player-label">
+            <label for="player2">Player2</label>
+            <input type="text" id="player2">
+        </div>
+        <br>
+        <br>
+
+        <button type="button" id="submit" onclick="name_change()">Submit</button>
+
+        <p id="refresh">Shall we start !!!
+            <br>Click on play.....
+        </p>
+        <div id="pic-container">
+            <div class="pic">
+                <p id="p1">Player1</p>
+                <img src="paper1.jpeg">
+            </div>
+            <div class="pic">
+                <p id="p2">Player2</p>
+                <img src="paper2.jpg">
+            </div>
+            <br>
+            <br>
+            <div>
+                <button type="button" onclick="play()">Play</button>
+
+            </div>
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

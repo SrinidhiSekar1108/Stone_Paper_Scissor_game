@@ -1,0 +1,38 @@
+html{
+    background-image: url("bg_sps.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic{
+    display: inline-block;
+    text-align: center;
+    margin-left: 12rem;
+    font-size: 30px;
+}
+.pic-container{
+    text-align: center;
+    margin: auto;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+#refresh{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.player-label{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 60px;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 40rem;
+    background-color: rgb(227, 162, 65);
+}
